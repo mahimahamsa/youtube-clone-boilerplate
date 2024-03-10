@@ -206,3 +206,69 @@ input{
     width: 200px;
     background-color:  rgb(224, 224, 224);
 }
+@media only screen and (max-width: 600px) {
+  header {
+    display: block;
+  }
+
+  .nav-bar {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .nav-searchbar {
+    width: 100%;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  .nav-four {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-right: 0;
+  }
+
+  .big-icons,
+  .profile-image,
+  .smol-img,
+  .youtube-logo,
+  .three-line {
+    height: 25px;
+  }
+
+  .search-tag {
+    height: 70px;
+  }
+
+  .mid-image-section,
+  .row-images {
+    height: 30px;
+  }
+
+  .image-box {
+    height: 150px;
+    width: 250px;
+  }
+
+  .mid-div {
+    padding-left: 20px;
+  }
+
+  .left-div {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-bar {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .left-side-bar {
+    margin-left: 0;
+  }
+}
